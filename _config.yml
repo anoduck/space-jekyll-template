@@ -1,18 +1,18 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
-baseurl: "/space-jekyll-template" # for test: remove string '/space-jekyll-template' to ''
-url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+title: The Lair - My Page in Cyber Space...
+description: "I have a mouth, I say things I shouldn't..."
+baseurl: "/" # for test: remove string '/space-jekyll-template' to ''
+url: "" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
-username: lorem ipsum
-user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
-twitter_username: loremipsum
-github_username:  loremipsum
-gplus_username:  loremipsum
-linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
-disqus_username: loremipsum
+username: Anoduck
+user_title: Dude
+# email: lorem.lorem@ipsum.com
+# twitter_username: anoduck
+github_username:  anoduck
+# gplus_username:  loremipsum
+# linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+disqus_username: anoduck
 profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png
 
 # Build settings
@@ -42,29 +42,29 @@ links:
     - title: tags
       url: /tags
       key_trigger: 4
-    - title: about me
-      url: /about
-      key_trigger: 5
+    # - title: about me
+    #   url: /about
+    #   key_trigger: 5
   section_2:
     - title: github
-      url: http://www.github.com/victorvoid
+      url: http://www.github.com/anoduck
       new_tab: true
       key_trigger: g
-    - title: twitter
-      url: http://www.twitter.com/victorvoid
-      key_trigger: t
+    # - title: twitter
+    #   url: http://www.twitter.com/victorvoid
+    #   key_trigger: t
     - title: search
       url: ""
       key_trigger: s #WARNING: search only works with "s"
 
 # projects in header index
 projects:
-  - name: fluany
-    url: https://github.com/fluany/fluany
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+  - name: LynxChan
+    url: https://gitgud.com/LynxChan/LynxChan
+  - name: Org-Mode
+    url: https://orgmode.org/
+  - name: RipMe
+    url: https://github.com/ripme-project/ripme
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
